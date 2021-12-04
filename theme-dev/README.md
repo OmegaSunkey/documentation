@@ -163,7 +163,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | String          | Purpose                 |
 | ---------------- |:-----------------------:|
 | primary_dark_100 | Chat Scrollbar |
-| primary_dark_300 | Attachments and Emotes icon, DMs button, Discord Navagation Button Colors, Top Bar Icons, Members List Icons (Only Search Icon, and Settings icon. The others you can be found [here](#drawable-strings)) + Text Underneath, Role Names in Members List, Server Name Color in the emotes list, and Icons for Default Emotes. |
+| primary_dark_300 | Attachments and Emotes icon, DMs button, Discord Navigation Button Colors, Top Bar Icons, Members List Icons (Only Search Icon, and Settings icon. The others you can be found [here](#drawable-strings)) + Text Underneath, Role Names in Members List, Server Name Color in the emotes list, and Icons for Default Emotes. |
 | primary_dark_360 | only in plugin: changes the read channel names and the icon next to them, also changes peoples names in the DM list [example](https://cdn.discordapp.com/attachments/590317150959566849/884594678832455770/Screenshot_20210907-022053.jpg) |
 | primary_dark_600 | Chat Background, and Members List Background |
 | primary_dark_630 | Channel List |
@@ -194,7 +194,7 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | uikit_btn_bg_color_selector_green | Online Icon Color |
 | uikit_btn_bg_color_selector_red | Ping color, Uninstall button on the Plugins page, and the "NEW MESSAGES" text in chat |
 | uikit_settings_item_text_color_dark | Secondary Text Color |
-| uikit_settings_item_text_color_light | changes the color of the 'Invite Members' button, background of streaming icon located on the server icon, background of events icon, text placeholder blobs when the members list is loading, some buttons in context menus, and tabs (best seen in the server event menu.) |
+| uikit_settings_item_text_color_light | changes the color of the 'Invite Members' button, background of streaming icon located on the server icon, background of events icon, text placeholder blobs when the members list is loading, some buttons in context menus, muted channels color, and tabs (best seen in the server event menu.) |
 
   
 
@@ -209,15 +209,18 @@ These are provided by the Plugin (or Xposed module). They theme many things at o
 | drawable_overlay_channels_pressed_dark | Pressed channel color in channel list for dark mode | 
 | item_background_material | mostly used for the top bar(where the name of the plugin, version and author name is written) |
 | design_bottom_navigation_item_background | is used mostly for the bottom part of the plugin page(where description is, uninstall and settings) also themes search box in plugins page |
-| ic_channel_text | Themes the # in the channel name at the top |
+| ic_channel_text & variants | Themes the # in the channel name at the top |
 | drawable_button_red | the red NEW↑ in the guild list when you get a ping in a guild |
 | drawable_voice_indicator_speaking | Color of the ring around a profile picture when voice activity is detected |
 | drawable_voice_user_background_speaking | Speaking Background |
 | drawable_voice_sensitivity_progress | Voice Sensitivity Bar in the Settings |
 | ic_ban_red_24dp | Ban Icon Color |
+| ic_sidebar_search_24dp | Search icon on sidebar |
+| ic_sidebar_pins_on_dark_24dp | Pins icon on sidebar |
 | ic_sidebar_notications_off_dark_24dp | Notification Icon in the Sidebar when the channel is muted |
 | ic_sidebar_notications_on_dark_24dp | Notification Icon in the Sidebar when the channel isn't muted |
 | ic_thread | Threads Icon Color located in the Sidebar |
+| ic_thread_gray_24dp & variants | Threads icon on Channel List |
 
   
 
