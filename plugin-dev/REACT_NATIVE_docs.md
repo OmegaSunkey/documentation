@@ -18,7 +18,8 @@ aliucord.metro.getByName("name")
 ```
 
 We also have a [debug-ws-server](https://github.com/Aliucord/debug-ws-server) , a command-line program available on any platform (even android), which is useful for debugging (incredible). Every method above can be used in the command line, and it will give you the properties of the module. 
-[!image](metroexample.jpg)
+
+<img alt="metro example" src="metroexample.jpg">
 
 # Patching
 We have some patching options. after() and before(), which are self-explanatory. (this needs better documentation)
