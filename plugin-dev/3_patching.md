@@ -1,6 +1,6 @@
 # Patching
 
-Aliucord currently uses the [Pine](https://github.com/canyie/pine) java method hook framework for hooking Discord's methods, though in plugins you should always use the XposedBridge wrapper to prepare for future internal code changes.
+Aliucord currently uses the [LSPlant](https://github.com/Aliucord/LSPlant) method hook framework for hooking Discord's methods.
 
 You can use it to run your own code before, instead of or after any method of any Discord class
 

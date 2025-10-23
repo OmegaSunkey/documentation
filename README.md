@@ -5,14 +5,11 @@
   </a>
 </p>
 
-# Aliucord Legacy
+# Aliucord
 
 ### [Plugin Documentation](/plugin-dev/README.md)
 [Plugin Installation](https://github.com/Aliucord/Aliucord/blob/main/README.md#-plugin-installation) -  [Request Plugin](https://github.com/Aliucord/plugin-requests/issues/new?template=plugin_request.yml)
 ### [Theming Documentation](/theme-dev/README.md)
 [Theme Installation](https://github.com/Vendicated/AliucordPlugins/tree/main/Themer)
 
-# AliucordRN
 
-### [Plugin Documentation](/plugin-dev/REACT_NATIVE_docs.md)
-### [Theming Documentation](/theme-dev/REACT_NATIVE_docs.md)
