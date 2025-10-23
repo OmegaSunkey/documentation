@@ -11,7 +11,7 @@
 <details>
 <summary>Java warning!</summary>
 <br>
-You may get errors while using gradle with JDK11. If that's your case, please put the following line in your gradle.properties file:
+You may get network errors (handshake_failure) while using gradle with JDK11. If that's your case, please put the following line in your gradle.properties file:
 
 ```
 org.gradle.jvmargs=-Dhttps.protocols=TLSv1.2
@@ -21,10 +21,10 @@ org.gradle.jvmargs=-Dhttps.protocols=TLSv1.2
 <details>
 <summary>Manually getting Android tools</summary>
 <br>
-If you dont want to use Android Studio (for some reason), heres the following tools you'll need:
+If you dont want to use Android Studio for some reason, heres the following tools you'll need, which can be installed through the Android SDK's `sdkmanager`:
 
-- Android build-tools;30.0.2
-- Android platforms;31.0.0
+- `build-tools;30.0.2`
+- `platforms;31.0.0`
 </details>
 
 

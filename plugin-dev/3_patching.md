@@ -1,6 +1,6 @@
 # Patching
 
-Aliucord currently uses the [LSPlant](https://github.com/Aliucord/LSPlant) method hook framework for hooking Discord's methods.
+Aliucord currently uses our [Aliuhook](https://github.com/aliucord/hook) bindings to the [LSPlant](https://github.com/Aliucord/LSPlant) ART hooking framework for hooking existing methods at runtime.
 
 You can use it to run your own code before, instead of or after any method of any Discord class
 
