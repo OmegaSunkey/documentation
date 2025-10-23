@@ -10,6 +10,6 @@ jadx --export-gradle --show-bad-code --fs-case-sensitive --respect-bytecode-acce
 
 If you use Aliucord's [fork](https://github.com/Aliucord/jadx) of JADX you can add the `--no-generate-kotlin-metadata` flag to remove the `@Metadata` annotation on most classes.
 
-Either way, you can check [RazerTexz's repo](https://github.com/RazerTexz/Discord-JADX) to see the Discord source code.
+Either way, you can check [Juby210's repo](https://gitdab.com/Juby210/discord-jadx) to see the Discord source code.
 
 You can use the [Developer Assistant](https://play.google.com/store/apps/details?id=com.appsisle.developerassistant&hl=en_US) app for finding view names while running Aliucord.

@@ -1,20 +1,10 @@
 # SMALI Patches
 
-Newer Discord API stuff became harder to port or mimic with only LSPlant patching. To properly backport Discord functions and behavior, the project decided to allow for SMALI patches.
+Newer Discord API behavior is harder to port or mimic with only Xposed-style hooks. To properly backport new Discord behavior, Aliucord now supports smali patches.
 
-To develop patches for Aliucord, you need:
-- Aliucord source
-- [Old Aliucord Manager](https://discord.com/channels/811255666990907402/811261478875299840/1428792362603380887)
-- adb
-- patch tool
-- diff tool
+Please go to [Aliucord/Aliucord/main/patches](https://github.com/Aliucord/Aliucord/tree/main/patches) to know how to build smali patches.
 
-After cloning the Aliucord repository, you have to do the :patches:disassembleWithPatches task. Make any changes necessary to the new generated smali dir.
-
-After making changes, do :patches:writePatches so they go back to src. Proceed with :patches:testPatches to make sure they work correctly.
-Use :patches:deployWithAdb for you to patch your Aliucord app.
-
-If everything goes well, and you are ready to make a pull request, update the patches version in the build.gradle.kts file.
+To test these patches on your old device, you need an [old build](https://discord.com/channels/811255666990907402/811261478875299840/1428792362603380887) of Aliucord Manager, then use `patches:deployWithAdb`
 
 ## But how do I know what to port ?!?!?!?!?!?
 
