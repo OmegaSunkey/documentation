@@ -22,6 +22,7 @@ org.gradle.jvmargs=-Dhttps.protocols=TLSv1.2
 <summary>Manually getting Android tools</summary>
 <br>
 If you dont want to use Android Studio (for some reason), heres the following tools you'll need:
+
 - Android build-tools;30.0.2
 - Android platforms;31.0.0
 </details>
